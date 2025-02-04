@@ -5,10 +5,10 @@ body{
 h1{
     color: brown;
 }
-html{
+head{
     background-color: azure;
 }
-@media(max-width: 600px){
+@media(min-width: 600px){
     body{
         font-size: 20px;
         color: blanchedalmond;
