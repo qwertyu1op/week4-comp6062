@@ -12,7 +12,6 @@ button.addEventListener("click",()=>{
 
 if(collegeName===givenName.value)
 {
-    
     year=year+2;
     console.log(year);
     console.log("PASS OUT YEAR IS:"+year);
@@ -21,4 +20,12 @@ else{
     console.log("not");
     console.log(givenName);
 }
+});
+
+
+let btnKing=document.querySelector(".choose_king");
+let kingData=document.querySelector(".king");
+
+btnKing.addEventListener("click",()=>{
+    console.log(kingData.value);
 });
